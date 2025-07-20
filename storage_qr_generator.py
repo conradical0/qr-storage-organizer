@@ -21,7 +21,7 @@ def save_data(box_name, contents):
 
 # QR code generator with number underneath
 def generate_qr(row_number):
-    url = f"https://yourdomain.com/box/{row_number}"
+    url = f"https://qr-storage-organizer.onrender.com/box/{row_number}"
     qr = qrcode.make(url)
 
     # Add number under QR
